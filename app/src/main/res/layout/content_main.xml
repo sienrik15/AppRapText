@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.joinnus.textspeech.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+<ScrollView
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="#000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtBot0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25pt"
+            android:text="Miguel Grau Seminario fue el marino peruano que comandó la escuadra nacional durante la Campaña Naval de la Guerra contra Chile (1879)."/>
+        <TextView
+            android:id="@+id/User"
+            android:layout_width="wrap_content"
+            android:textSize="25pt"
+            android:layout_height="wrap_content"
+            android:text=" Luchó a bordo del monitor Huáscar en los combates de Iquique y Angamos. "/>
+        <TextView
+            android:id="@+id/txtBot1"
+            android:layout_width="wrap_content"
+            android:textSize="25pt"
+            android:layout_height="wrap_content"
+            android:text="Murió en el combate de Angamos del 8 de octubre de 1879. Es considerado Patrono de la Marina de Guerra del Perú."/>
+        <TextView
+            android:id="@+id/User1"
+            android:textSize="25pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Durante la Guerra con Chile (1879) comandó el buque Huáscar y la escuadra peruana. El 21 de mayo de 1879, "/>
+        <TextView
+            android:id="@+id/txtBot2"
+            android:textSize="25pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hundió la nave chilena Esmeralda en el combate de Iquique."/>
+        <TextView
+            android:id="@+id/User2"
+            android:textSize="25pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Durante varios meses bombardeó las costas enemigas y retrasó el desembarco del ejército chileno en suelo peruano. "/>
+        <TextView
+            android:id="@+id/txtBot3"
+            android:textSize="25pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lamentablemente, murió el 8 de octubre de 1879 en el combate de Angamos."/>
+        <TextView
+            android:id="@+id/User3"
+            android:textSize="25pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="n cañonazo del blindado chileno Cochrane cayó sobre el buque Huáscar y acabó con su vida."/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>
